@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="t1">Accumulator 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="myAudio">
+        <source src="Sound_11342.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p id="p1">Load script ...</p>
+
+    <div class='gauges'>
+        <div id="chartdivG1"></div>
+        <div id="chartdivG2"></div>
+        <div id="chartdiv4"></div>
+        <div id="chartdiv5"></div>
+        <div id="chartdiv7"></div>
+    </div>
+
+    <div id="chartdiv"></div>
+
+    <div id="chartdiv6"></div>
+    <!--
+    <script src="../../../core.js"></script>
+    <script src="../../../charts.js"></script>
+    <script src="../../../themes/animated.js"></script>
+    -->
+    <script type="text/javascript">console.time("All");</script>
+    <script type="text/javascript">console.time("loadCdn");</script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+    <script type="text/javascript">console.timeEnd("loadCdn");</script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

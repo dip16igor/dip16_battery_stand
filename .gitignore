@@ -1,0 +1,15 @@
+# IDE - VSCode
+.vscode/
+
+# PlatformIO
+.pio/
+.sconsign.py
+.sconsign.py.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Configuration file - It's good practice to not commit this file.
+# Instead, create a config.js from the config.js.example template.
+config.js

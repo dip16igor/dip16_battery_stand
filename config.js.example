@@ -1,0 +1,8 @@
+// This file contains configuration variables for the application.
+// Rename this file to config.js and fill in your actual values.
+const config = {
+    apiBaseUrl: "http://......",
+    stationId: 2,
+    // The station ID below seems to be for a different purpose or an old one.
+    otherStationId: 1
+};

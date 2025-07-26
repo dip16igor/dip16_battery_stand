@@ -1,0 +1,39 @@
+#chartdiv {
+    width: 100%;
+    height: 600px;
+  }
+
+  #chartdivG1 {
+    width: 19%;
+    
+  }
+
+  #chartdivG2 {
+    width: 19%;
+    
+  }
+
+  #chartdiv4 {
+    width: 19%;
+    
+  }
+
+  #chartdiv5 {
+    width: 19%;
+    
+  }
+
+  #chartdiv7 {
+   /* height: 200px;*/
+    width: 19%;
+  }
+
+  .gauges div{
+    /* height: 200px;*/
+    display: inline-block;
+  }
+
+  #chartdiv6 {
+    width: 100%;
+    height: 4000px;
+  }
